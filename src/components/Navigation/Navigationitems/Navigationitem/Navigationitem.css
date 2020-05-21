@@ -31,14 +31,3 @@
   transform: scaleX(1);
 }
 
-.CartItem {
-  flex-grow: 1;
-  font-size: 20px;
-  margin:0 5px;
-}
-.CartItem a {
-  float: right;
-  display: block;
-  margin:0;
-  padding: 0;
-}

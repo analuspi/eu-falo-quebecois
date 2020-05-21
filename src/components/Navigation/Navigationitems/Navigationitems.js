@@ -1,18 +1,14 @@
 import React from "react";
 import Navigationitem from "./Navigationitem/Navigationitem";
-//import Cart from "../../../assets/img/shopping-cart.svg";
-import classes from "./Navigationitems.css";
+
+import "./Navigationitems.css";
+
 const navigationItems = () => {
   return (
-    <ul className={classes.NavigationItems}>
-      
-      <Navigationitem link="/shop" >
-        Shop
-      </Navigationitem>
-      <Navigationitem link="/about">About</Navigationitem>
-      <Navigationitem link="/cart" cart="cart">
-        
-      </Navigationitem>
+    <ul className="NavigationItems">      
+      <Navigationitem link="/lessons">Lições</Navigationitem>
+      <Navigationitem link="/about">Sobre</Navigationitem>
+      <Navigationitem link="/cooperate">Colabore</Navigationitem>
     </ul>
   );
 };

@@ -6,13 +6,3 @@
   padding: 0;
  
 }
-
-
-.Cart{
-    width: 30px; 
-}
-@media (max-width: 768px) {
-  .NavigationItems li:not(:last-child){
-    display: none;
-  }
-}
