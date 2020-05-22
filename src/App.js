@@ -8,7 +8,7 @@ import Home from "./components/Home/Home";
 //import ProductList from "./components/ProductList/ProductList";
 //import Default from "./components/Default/Default";
 //import Details from "./components/Details/Details";
-import About from "./components/About/About";
+//import About from "./components/About/About";
 //import Cart from "./components/Cart/Cart";
 //import Modal from "./components/Modal/Modal";
 
@@ -18,12 +18,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="Container">
           <Navbar  />
           <Switch>
             <Route path="/" exact component={Home} />
           </Switch>
-        </div>
       </div>
     );
   }

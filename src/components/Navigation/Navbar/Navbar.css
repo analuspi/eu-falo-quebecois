@@ -3,9 +3,8 @@
   width: 100%;
   top: 20px;
   left: 0;
-  background-color: #ffffff;
-  height: 60px;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  background-color: rgb(232, 234, 240);
+  box-sizing: border-box;
 }
 
 .Navigation {
@@ -15,8 +14,17 @@
   padding: 0 2rem;
 }
 
+.Navbar-brand {
+  display: flex;
+}
+
+.Navbar-brand img {
+  max-width: 10%;
+}
+
 .Logo {
-  margin-left: 0.5rem;
+  font-size: 20px;
+  color: #022873;
 }
 
 @media (min-width: 769px) {

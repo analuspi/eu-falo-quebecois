@@ -56,6 +56,6 @@
     outline: none;
   }
   .Btn:hover {
-    background: #ffffff;
-    color: #00344B;
+    background: rgb(232, 234, 240);
+    color: #022873;
   }

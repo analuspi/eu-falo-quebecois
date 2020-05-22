@@ -5,7 +5,7 @@ import "./Navigationitem.css";
 const navigationItem = props => {
 
   return (
-    <li>
+    <li className= {props.cart !=="cart" ? "NavigationItem":"CartItem"}>
       <NavLink className="NavigationItem" to={props.link} exact={props.exact}>
         {props.children}
       </NavLink>
