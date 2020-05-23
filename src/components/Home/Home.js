@@ -10,7 +10,7 @@ export default class Home extends Component {
         <img src={home} alt="home" className="Img" />
         <div className="Overlay" />
         <div className="Headding">
-          <h1 className="Title">Benvindo(a) ao site dedicado a quem quer aprender francês québécois</h1>
+          <h1 className="Title">Bem-vindo(a) ao site dedicado a quem quer aprender francês québécois</h1>
           <NavLink to="/lessons">
             <button className="Btn">Lições</button>
           </NavLink>

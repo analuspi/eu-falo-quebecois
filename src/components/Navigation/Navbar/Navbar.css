@@ -16,6 +16,7 @@
 
 .Navbar-brand {
   display: flex;
+  align-items: center;
 }
 
 .Navbar-brand img {
