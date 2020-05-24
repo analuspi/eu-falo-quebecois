@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import NavigationItems from "../Navigationitems/Navigationitems";
 import logo from "../../../assets/logo.jpg";
 import "./Navbar.css";
@@ -8,7 +9,9 @@ const Navbar = props => (
     <nav className="Navigation">
       <div className="Navbar-brand">
           <img src= {logo} alt="logo" />
-          <div className="Logo">Eu falo québécois</div>
+          <NavLink to="/" exact className="Logo">
+            <div>Eu falo québécois</div>
+          </NavLink>
       </div>
         <NavigationItems />
     </nav>

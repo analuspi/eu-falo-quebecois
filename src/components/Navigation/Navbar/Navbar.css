@@ -5,6 +5,7 @@
   left: 0;
   background-color: rgb(232, 234, 240);
   box-sizing: border-box;
+  z-index: 1;
 }
 
 .Navigation {
@@ -26,6 +27,8 @@
 .Logo {
   font-size: 20px;
   color: #022873;
+  padding-left: 10px;
+  text-decoration: none;
 }
 
 @media (min-width: 769px) {
