@@ -1,6 +1,6 @@
 
 
-export const Lessons = [
+export const lessons = [
   {
     id: 1,
     title: "Saluer",
