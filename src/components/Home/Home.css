@@ -1,10 +1,10 @@
-.Container {
+.home-container {
     margin: 5rem 2rem 2rem 2rem;
     background: #ffffff;
     height: 100%;
     position: relative;
   }
-  .Overlay{
+  .home-overlay{
     position: absolute; 
     top:0;
     background: rgba(232, 234, 240, 0.1); 
@@ -12,12 +12,12 @@
     width: 100%;
     height: 100%;
   }
-  .Img {
+  .home-img {
     width: 100%;
     height: 80vh;
     object-fit: cover;
   }
-  .Headding {
+  .home-headding {
     position: absolute;
     top: 20%;
     right: 10%;
@@ -27,7 +27,7 @@
     width: 40%;
     z-index: 300;
   }
-  .Title {
+  .home-title {
     color: #ffffff;
     font-family: "Rasa", serif;
     font-size: 3rem;
@@ -35,13 +35,13 @@
     margin: 2rem;
   }
   @media only screen and (max-width:470px){
-    .Title {
+    .home-title {
       margin:1rem;
       font-size: 2rem;
     }
   }
   
-  .Btn {
+  .home-button {
     margin-bottom: 1rem;
     color: #ffffff;
     border: 2px solid #ffffff;
@@ -55,7 +55,7 @@
     cursor: pointer;
     outline: none;
   }
-  .Btn:hover {
+  .home-button:hover {
     background: rgb(232, 234, 240);
     color: #022873;
   }

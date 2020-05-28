@@ -6,13 +6,13 @@ import { NavLink } from "react-router-dom";
 export default class Home extends Component {
   render() {
     return (
-      <div className="Container">
-        <img src={home} alt="home" className="Img" />
-        <div className="Overlay" />
-        <div className="Headding">
-          <h1 className="Title">Bem-vindo(a) ao site dedicado a quem quer aprender francês québécois</h1>
+      <div className="home-container">
+        <img src={home} alt="la ville de Québec" className="home-img" />
+        <div className="home-overlay" />
+        <div className="home-headding">
+          <h1 className="home-title">Bem-vindo(a) ao site dedicado a quem quer aprender francês québécois</h1>
           <NavLink to="/lessons">
-            <button className="Btn">Lições</button>
+            <button className="home-button">Lições</button>
           </NavLink>
         </div>
       </div>
