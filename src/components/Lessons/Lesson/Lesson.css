@@ -1,8 +1,10 @@
-.Card {
+.lesson-card {
     width: 100%;
     background-color:  rgb(232, 234, 240);
     display: grid;
     grid-template-rows: auto auto 4em;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
     border-radius: 2px;
+    position: relative;
   }
+

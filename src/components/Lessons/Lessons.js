@@ -14,9 +14,9 @@ export default class Lessons extends Component {
 
     return (
       <React.Fragment>
-        <div className="PageContainer">
-            <Title name="lições" />
-            <div className="LessonContainer">
+        <div className="lessons">
+            <Title name="Lições" />
+            <div className="lesson">
                 <LessonConsumer>
                     {value => {
                         return value.lessons.map( lesson => {

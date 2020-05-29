@@ -4,7 +4,7 @@ import "./Lesson.css"
 export default class Lesson extends Component {
     render() {
         return (
-            <div className="Card">
+            <div className="lesson-card">
                 <h3>Lesson</h3>
             </div>
         )

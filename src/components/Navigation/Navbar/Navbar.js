@@ -5,11 +5,11 @@ import logo from "../../../assets/logo.jpg";
 import "./Navbar.css";
 
 const Navbar = props => (
-  <header className="Navbar">
-    <nav className="Navigation">
-      <div className="Navbar-brand">
+  <header className="navbar">
+    <nav className="navbar-navigation">
+      <div className="navbar-brand">
           <img src= {logo} alt="logo" />
-          <NavLink to="/" exact className="Logo">
+          <NavLink to="/" exact className="navbar-logo">
             <div>Eu falo québécois</div>
           </NavLink>
       </div>

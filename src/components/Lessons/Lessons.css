@@ -1,12 +1,12 @@
-.PageContainer{
-    margin:3rem;
+.lessons{
+    margin:3rem; 
 }
 @media only screen and (max-width:450px){
-    .PageContainer{
+    .lessons{
       margin:0.2rem;
     }
   }
-.LessonContainer{
+.lesson{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     grid-gap:1.5rem;

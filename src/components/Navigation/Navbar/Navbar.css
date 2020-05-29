@@ -1,4 +1,4 @@
-.Navbar {
+.navbar {
   position: fixed;
   width: 100%;
   top: 20px;
@@ -8,23 +8,23 @@
   z-index: 1;
 }
 
-.Navigation {
+.navbar-navigation {
   display: flex;
   align-items: center;
   height: 100%;
   padding: 0 2rem;
 }
 
-.Navbar-brand {
+.navbar-brand {
   display: flex;
   align-items: center;
 }
 
-.Navbar-brand img {
+.navbar-brand img {
   max-width: 10%;
 }
 
-.Logo {
+.navbar-logo {
   font-size: 20px;
   color: #022873;
   padding-left: 10px;
