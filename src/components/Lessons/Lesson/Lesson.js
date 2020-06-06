@@ -9,7 +9,7 @@ export default class Lesson extends Component {
         return (
             <div className="lesson-card" onClick={() => console.log('you clicked on the card')}>
                 <Link to="/details">
-                    <div className="lesson-container">
+                    <div className="lesson-img-container">
                         <img src={img} alt="lesson" className="lesson-img"/>
                     </div>
                     <h4 className="lesson-title">{title}</h4>

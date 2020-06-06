@@ -10,7 +10,7 @@ const Navbar = props => (
       <div className="navbar-brand">
           <img src= {logo} alt="logo" />
           <NavLink to="/" exact className="navbar-logo">
-            <div>Eu falo québécois</div>
+            <div>Eu Falo Québécois</div>
           </NavLink>
       </div>
         <NavigationItems />
